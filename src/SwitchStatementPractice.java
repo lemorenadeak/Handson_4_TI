@@ -256,6 +256,23 @@ public class SwitchStatementPractice {
         int priority = 2;
         // Your code here:
 
+        switch (priority) {
+            case 1:
+                System.out.println("Critical priority");
+                break;
+                case 2:
+                    System.out.println("High priority");
+                    break;
+                    case 3:
+                        System.out.println("Medium priority");
+                        break;
+                        case 4:
+                            System.out.println("Low priority");
+                            break;
+                            default:
+                                System.out.println("invalid priority");
+        }
+
 
         // TODO 10: File Extension
         // Write a switch statement for file extensions:
@@ -265,6 +282,38 @@ public class SwitchStatementPractice {
         // default: "Unknown file type"
         String fileExtension = "png";
         // Your code here:
+        switch (fileExtension) {
+            case "jpg":
+                System.out.println("Image file");
+                break;
+                case "png":
+                    System.out.println("Image file");
+                    break;
+                    case "gif":
+                        System.out.println("Image file");
+                        break;
+                        case "mp4":
+                            System.out.println("Video file");
+                            break;
+                            case "avi":
+                                System.out.println("Video file");
+                                break;
+                                case "mkv":
+                                    System.out.println("Video file");
+                                    break;
+                                    case "txt":
+                                        System.out.println("Doccument file");
+                                        break;
+                                        case "doc":
+                                            System.out.println("Doccument file");
+                                            break;
+                                            case "pdf":
+                                                System.out.println("Doccument file");
+                                                break;
+                                                default:
+                                                    System.out.println("Unknown file type");
+
+        }
 
     }
 }
